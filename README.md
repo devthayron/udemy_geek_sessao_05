@@ -1,1 +1,1 @@
-# Estudo na udemy em posstgree em django
+# Estudo na udemy em postgresql em django
