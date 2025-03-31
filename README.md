@@ -1,2 +1,1 @@
-# Estudo na udemy em postgresql em django
-
+# Projeto do curso Udemy sessão 5
