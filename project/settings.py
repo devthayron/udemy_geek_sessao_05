@@ -129,3 +129,19 @@ MEDIA_ROOT = BASE_DIR / 'media'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Email teste console
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+'''
+# Email Produção
+
+EMAIL_HOST = 'localhost'
+EMAIL_HOST_USER = 'no-reply@atfsolucoes.com.br'
+EMAIL_POST = 587
+EMAIL_USE_TSL = True
+EMAIL_HOST_PASSWORD = 'atfsolucoes'
+DEFAULT_FROM_EMAIL = 'contato@atfsolucoes.com.br'
+
+'''
